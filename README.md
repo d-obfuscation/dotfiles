@@ -12,9 +12,10 @@ When installing this, make sure to reconfigure the xrandr, as it's currently set
 `cd ~/.config`<br>
 `git clone https://github.com/d-obfuscation/dotfiles`<br>
 `cd dotfiles`<br>
-`python3 install.py`<br>
+`chmod +x install.sh install2.sh`<br>
+`./install.sh`<br>
 **Restart your terminal**<br>
-`python3 install2.py`<br>
+`./install2.sh`<br>
 
 it should be complete.. i didnt care too much about writing the installer, so its probs broken (lol)
 

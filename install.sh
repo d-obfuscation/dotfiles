@@ -5,7 +5,7 @@ read -p "note: part of this config is for bash, not zsh or fish or anything else
 read -p "another note: this will install the necessary dependencies, Ctrl-C NOW if you dont want to install anything..\nPress enter to continue.. "
 
 # Install dependencies
-sudo pacman -S feh kitty rofi polybar neofetch picom
+sudo pacman -Sy feh kitty rofi polybar neofetch picom
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # Function to replace configuration

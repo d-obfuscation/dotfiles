@@ -15,7 +15,7 @@ append_to_bashrc() {
 
 # Lines to be appended
 lines_to_append=(
-    "PS1='\\[\\033[01;31m\\]❰ INT \\[\\033[01;36m\\]⌥ /\\w\\[\\033[01;31m\\] ❱\\[\\033[01m\\] \\[\\033[0m\\] '"
+    "PS1='\\[\\033[01;31m\\]❰ DST \\[\\033[01;36m\\]⌥ /\\w\\[\\033[01;31m\\] ❱\\[\\033[01m\\] \\[\\033[0m\\] '"
     "wallust run ~/.config/dotfiles/images/wallpaper.jpg -q -n"
     "alias fixcolors='wallust run ~/.config/dotfiles/images/wallpaper.jpg -q -n'"
 )

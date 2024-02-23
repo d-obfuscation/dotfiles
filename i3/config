@@ -212,4 +212,4 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always xset s off
 exec_always xset -dpms
 exec_always picom -f &
-exec_always xrandr --output HDMI-0 --mode 1920x1080 --rate 239.76 --output DP-4 --mode 2560x1080 --rate 200.00 --right-of HDMI-0
+exec_always xrandr --output DP-0 --mode 1920x1080 --rate 239.76 --output DP-4 --mode 2560x1080 --rate 200.00 --right-of DP-0

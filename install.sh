@@ -5,7 +5,15 @@ read -p "note: part of this config is for bash, not zsh or fish or anything else
 read -p "another note: this will install the necessary dependencies, Ctrl-C NOW if you dont want to install anything..\nPress enter to continue.. "
 
 # Install dependencies
-sudo pacman -Sy feh kitty rofi polybar neofetch picom
+sudo pacman -Syu
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+sudo pacman -Sy pulsewire ffmpeg keepass nvidia-dkms nodejs npm piper ntfs-3g discord feh kitty rofi polybar neofetch picom flameshot ttf-dejavu ttf-liberation noto-fonts ttf-dejavu ttf-liberation noto-fonts adobe-source-han-sans-jp-fonts adobe-source-han-serif-jp-fonts
+yay -S ttf-font-awesome
+fc-cache -f -v
+sudo npm i -g pnpm
+yay -S vscodium
+yay -S mullvad-vpn
+# sudo pacman -S pavucontrol-qt
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # Function to replace configuration

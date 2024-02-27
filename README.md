@@ -13,7 +13,7 @@ When installing this, make sure to reconfigure the xrandr, as it's currently set
 `cd ~/.config`<br>
 `git clone https://github.com/d-obfuscation/dotfiles`<br>
 `cd dotfiles`<br>
-`chmod +x install.sh install2.sh`<br>
+`chmod +x install.sh`<br>
 `./install.sh`<br>
 Then press $mod1 + shift + R to refresh i3<br>
 

@@ -1,6 +1,7 @@
 # dotfiles
 My Arch i3 Dotfiles (again)
 # Monochrome Rice
+![image](https://github.com/d-obfuscation/dotfiles/assets/130487372/2dd5e040-88b0-4383-8e79-e624e56d16ba)
 
 # MAKE SURE TO GIT CLONE THIS INSIDE ~/.config
 

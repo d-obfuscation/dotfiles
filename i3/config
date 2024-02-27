@@ -198,15 +198,15 @@ smart_gaps on
 for_window [class="^.*"] border pixel 2
 
 # class                 border  backgr. text    indicator child_border
-client.focused #c6c6c6 #1f1f1f #c6c6c6 #beff29 #beff29
+client.focused #c6c6c6 #1f1f1f #c6c6c6 #595959 #595959
 client.focused_inactive #00000000 #00000000 #00000000 #00000000 #00000000
 client.unfocused #00000000 #00000000 #00000000 #00000000 #00000000
-client.urgent #c6c6c6 #1f1f1f #c6c6c6 #beff29 #beff29
+client.urgent #c6c6c6 #1f1f1f #c6c6c6 #595959 #595959
 client.placeholder #00000000 #00000000 #00000000 #00000000
 
 client.background       #ffffff
 
-exec_always --no-startup-id feh --bg-scale $HOME/.config/dotfiles/images/wallpaper.jpg
+exec_always --no-startup-id feh --bg-scale $HOME/.config/dotfiles/images/nyc.png
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 exec_always xset s off
